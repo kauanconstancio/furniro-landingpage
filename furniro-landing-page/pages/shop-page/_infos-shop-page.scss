@@ -1,0 +1,102 @@
+.infos-shop-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    padding: 100px 0px;
+    margin-bottom: 100px;
+    background-color: $primary-color-shop-page;
+
+    .infos-shop-page-section1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+        i{
+            font-size: 60px;
+        }
+
+        .infos-shop-page-content{
+            h3{
+                font-size: 25px;
+                font-weight: 500;
+            }
+
+            p{
+                font-size: 20px;
+                color: #898989;
+                font-weight: 500;
+            }
+        }
+    }
+    .infos-shop-page-section2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+        i{
+            font-size: 60px;
+        }
+
+        .infos-shop-page-content{
+            h3{
+                font-size: 25px;
+                font-weight: 500;
+            }
+
+            p{
+                font-size: 20px;
+                color: #898989;
+                font-weight: 500;
+            }
+        }
+    }
+    .infos-shop-page-section3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+        i{
+            font-size: 60px;
+        }
+
+        .infos-shop-page-content{
+            h3{
+                font-size: 25px;
+                font-weight: 500;
+            }
+
+            p{
+                font-size: 20px;
+                color: #898989;
+                font-weight: 500;
+            }
+        }
+    }
+    .infos-shop-page-section4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+        i{
+            font-size: 60px;
+        }
+
+        .infos-shop-page-content{
+            h3{
+                font-size: 25px;
+                font-weight: 500;
+            }
+
+            p{
+                font-size: 20px;
+                color: #898989;
+                font-weight: 500;
+            }
+        }
+    }
+}

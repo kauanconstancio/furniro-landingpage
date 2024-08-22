@@ -1,0 +1,169 @@
+.personal-infos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 190px;
+
+    .personal-infos-title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        width: 640px;
+        gap: 10px;
+
+        h2{
+            font-weight: 600;
+        }
+
+        p{
+            font-size: 16px;
+            color: #aca9a9a2;
+            font-weight: 400;
+        }
+    }
+
+    .personal-infos-informations-section{
+        display: flex;
+        gap: 150px;
+        margin-top: 100px;
+
+        .personal-infos-company{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: 40px;
+            margin-bottom: 300px;
+
+            .personal-infos-address{
+                display: flex;
+                gap: 10px;
+
+                i{
+                    font-size: 26px;
+                }
+
+                .personal-infos-address-content{
+                    h3{
+                       font-size: 24px; 
+                       font-weight: 500;
+                    }
+    
+                    p{
+                        width: 212px;
+                    }
+                }
+                
+            }
+
+            .personal-infos-phone{
+                display: flex;
+                gap: 10px;
+
+                i{
+                    font-size: 26px;
+                }
+
+                .personal-infos-phone-content{
+                    h3{
+                       font-size: 24px; 
+                       font-weight: 500;
+                    }
+    
+                    p{
+                        width: 212px;
+                    }
+                }
+            }
+
+            .personal-infos-workingtime{
+                display: flex;
+                gap: 10px;
+
+                i{
+                    font-size: 26px;
+                }
+
+                .personal-infos-workingtime-content{
+                    h3{
+                       font-size: 24px; 
+                       font-weight: 500;
+                    }
+    
+                    p{
+                        width: 212px;
+                    }
+                }
+            }
+        }
+
+        .personal-infos-userinfos{
+            display: flex;
+            flex-direction: column;
+            gap: 36px;
+
+            .personal-infos-userinfos-yourname{
+                display: flex;
+                flex-direction: column;
+                gap: 22px;
+
+                input{
+                    padding: 25px 30px;
+                    border-radius: 10px;
+                    outline: none;
+                    width: 500px;
+                }
+            }
+            .personal-infos-userinfos-email{
+                display: flex;
+                flex-direction: column;
+                gap: 22px;
+
+                input{
+                    padding: 25px 30px;
+                    border-radius: 10px;
+                    outline: none;
+                    width: 500px;
+                }
+            }
+            .personal-infos-userinfos-subject{
+                display: flex;
+                flex-direction: column;
+                gap: 22px;
+
+                input{
+                    padding: 25px 30px;
+                    border-radius: 10px;
+                    outline: none;
+                    width: 500px;
+                }
+            }
+            .personal-infos-userinfos-message{
+                display: flex;
+                flex-direction: column;
+                gap: 22px;
+
+                textarea{
+                    padding: 25px 30px;
+                    border-radius: 10px;
+                    outline: none;
+                    max-width: 500px;
+                    max-height: 120px;
+                    min-width: 500px;
+                    min-height: 120px;
+                    border: 2px solid #000;
+                }
+            }   
+            .personal-infos-userinfos-submitbutton{
+                a{
+                    background-color: $primary-golden;
+                    color: #fff;
+                    padding: 13.75px 88px;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+.categories-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 70px 0px;
+
+    h2{
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    p{
+        font-size: 20px;
+    }
+}
+
+.categories-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.categories-card1,
+.categories-card2,
+.categories-card3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+    p{
+        font-size: 24px;
+        font-weight: 600;
+    }
+}

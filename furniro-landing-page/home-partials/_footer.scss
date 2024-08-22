@@ -1,0 +1,111 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 48px 100px;
+    border-top: 1px solid #000;
+
+    .footer-sections{
+        display: flex;
+        gap: 130px;
+        padding-bottom: 50px;
+
+        .footer-section1{
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+
+            h3{
+                font-size: 20px;
+            }
+
+            h4{
+                font-size: 16px;
+                color: #9f9f9f;
+                font-weight: 500;
+            }
+        }
+
+        .footer-section2{
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+
+            h4{
+                color: #9f9f9f;
+                font-weight: 500;
+            }
+
+            a{
+                font-weight: 500;
+            }
+        }
+
+        .footer-section3{
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+
+            h4{
+                color: #9f9f9f;
+                font-weight: 500;
+            }
+
+            a{
+                font-weight: 500;
+            }
+        }
+
+        .footer-section4{
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+
+            h4{
+                color: #9f9f9f;
+                font-weight: 500;
+            }
+
+            .footer-section4-content{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+
+                input{
+                    font-size: 16px;
+                    border: none;
+                    border-bottom: 2px solid #000;
+                    width: 250px;
+                    outline: none;
+                    margin-top: 6px;
+                }
+
+                a{
+                    font-weight: 500;
+                    border-bottom: 2px solid #000;
+                }
+            }
+        }
+    }
+}
+
+.footer-reserved{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    width: 100%;
+
+    h4{
+        margin-left: -1000px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .footer-reserved-line{
+        height: 1px;
+        width: 95%;
+        background-color: #000;
+    }
+}

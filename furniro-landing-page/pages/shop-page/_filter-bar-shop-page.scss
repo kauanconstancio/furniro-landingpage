@@ -1,0 +1,93 @@
+.filter-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 150px;
+    background-color: $primary-color-shop-page;
+
+    .filter-bar-left{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+
+        a i{
+            font-size: 20px;
+        }
+
+        p{
+            font-size: 16px;
+        }
+
+        .filter-bar-left-filterbutton{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+
+            a i{
+                font-size: 20px;
+            }
+
+            a h5{
+                font-size: 20px;
+                font-weight: 500;
+            }
+        }
+
+        .filter-bar-left-line{
+            width: 1px;
+            height: 30px;
+            background-color: $primary-price;
+        }
+    }
+
+    .filter-bar-right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+
+        .filter-bar-right-filtersettings1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 17px;
+
+            h5{
+                font-size: 20px;
+                font-weight: 500;
+            }
+
+            input{
+                font-size: 20px;
+                width: 55px;
+                height: 55px;
+                text-align: center;
+                border: none;
+                outline: none;
+            }
+        }
+
+        .filter-bar-right-filtersettings2{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 17px;
+
+            h5{
+                font-size: 20px;
+                font-weight: 500;
+            }
+
+            input{
+                font-size: 20px;
+                width: 155px;
+                height: 55px;  
+                padding: 0px 0px 0px 30px;
+                border: none;
+                outline: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,132 @@
+.our-products{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.our-products .our-products-title{
+    margin-top: 56px;
+    margin-bottom: 56px;
+
+    h2{
+        font-size: 40px;
+        font-weight: 600;
+    }
+}
+
+.our-products-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 32px;
+
+    .our-products-card1,
+    .our-products-card2,
+    .our-products-card3,
+    .our-products-card4,
+    .our-products-card5,
+    .our-products-card6,
+    .our-products-card7,
+    .our-products-card8{
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .our-products-card1:hover{
+        scale: 103%;
+    }
+    .our-products-card2:hover{
+        scale: 103%;
+    }
+    .our-products-card3:hover{
+        scale: 103%;
+    }
+    .our-products-card4:hover{
+        scale: 103%;
+    }
+    .our-products-card5:hover{
+        scale: 103%;
+    }
+    .our-products-card6:hover{
+        scale: 103%;
+    }
+    .our-products-card7:hover{
+        scale: 103%;
+    }
+    .our-products-card8:hover{
+        scale: 103%;
+    }
+
+    .our-products-info{
+        background-color: $primary-gray;
+        padding: 10px 10px 20px 10px;
+        margin-top: -7px;
+        height: 145px;
+    
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    
+        h4{
+            font-size: 24px;
+            font-weight: 500;
+        }
+    
+        p{
+            color: $offer-price;
+        }
+    
+        .our-products-price{
+            display: flex;
+            align-items: center;
+            gap: 16px;
+    
+            h4{
+                font-size: 20px;
+                color: $primary-price;
+            }
+    
+            p{
+                font-size: 16px;
+                text-decoration: line-through;
+                color: $offer-price;
+            }
+        }
+    }
+
+    .our-products-button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 44px;
+    
+        a{
+            border: 3px solid $primary-golden;
+            color: $primary-golden;
+            font-weight: 500;
+            font-size: 16px;
+            padding: 12px 74px;
+        }
+    }
+}
+
+.our-products-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 44px;
+
+    a{
+        border: 3px solid $primary-golden;
+        color: $primary-golden;
+        font-weight: 500;
+        font-size: 16px;
+        padding: 12px 74px;
+        transition: 0.5s;
+    }
+
+    a:hover{
+        scale: 105%;
+    }
+}

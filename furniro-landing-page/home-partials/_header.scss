@@ -1,0 +1,48 @@
+.header .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.header .nav .nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    font-weight: 500;
+
+    a{
+        padding: 10px;
+    }
+}
+
+.header .nav .nav-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.header .nav .nav-icons i{
+    cursor: pointer;
+    padding: 10px;
+    font-size: 22px;
+}
+
+.header .nav .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h2{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    img{
+        width: 50px;
+        height: 32px;
+    }
+}

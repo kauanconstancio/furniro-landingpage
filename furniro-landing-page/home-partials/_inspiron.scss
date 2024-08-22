@@ -1,0 +1,40 @@
+.inspiron{
+    background-color: $primary-background;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .inspiron-content{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .inspiron-content-title{
+        width: 422px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+
+        h3{
+            font-size: 40px;
+            line-height: 105%;
+        }
+
+        p{
+            font-size: 16px;
+        }
+    }
+
+.inspiron-content-button a{
+    color: #fff;
+    background-color: $primary-golden;
+    padding: 12px 36px;
+}
+
+    .inspiron-imgs{
+        padding: 44px 0px 44px 44px;
+    }
+}

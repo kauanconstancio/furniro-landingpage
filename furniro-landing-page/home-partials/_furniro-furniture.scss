@@ -1,0 +1,25 @@
+.furniro-furniture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 67px;
+    margin-bottom: 50px;
+
+    .furniro-furniture-title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        h5{
+            font-size: 20px;
+            color: #616161;
+        }
+
+        h3{
+            font-size: 40px;
+            color: $primary-price;
+        }
+    }
+}
